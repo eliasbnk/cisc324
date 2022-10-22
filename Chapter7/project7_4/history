@@ -1,0 +1,6 @@
+    1  vi myscript
+    2  ls -l myscript
+    3  bash myscript
+    4  ./myscript
+    5  chmod u+x myscript
+    6  ./myscript

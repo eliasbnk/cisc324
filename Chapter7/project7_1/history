@@ -1,0 +1,28 @@
+    1  mkdir Chapter7
+    2  cd Chapter7
+    3  touch sample1 sample2
+    4  ls -F
+    5  ls -l sample1 sample2 sample3
+    6  ls -l sample1 sample2 sample3 > file
+    7  cat file
+    8  ls -l sample1 sample2 sample3 2> file
+    9  cat file
+   10  ls -l sample1 sample2 sample3 > file 2> file2
+   11  cat file
+   12  cat file2
+   13  ls -l sample1 sample2 sample3 > file 2> &1
+   14  cat file
+   15  ls -l sample1 sample2 sample3 > &2 2> file2
+   16  cat file2
+   17  date >> file
+   18  cat file
+   19  date >> file
+   20  cat file
+   21  tr o O /etc/hosts
+   22  tr o O < /etc/hosts
+   23  ls
+   24  tr O o < /etc/hosts
+   25  ls
+   26  cat file
+   27  cat file2
+   28  history > history

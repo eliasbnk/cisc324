@@ -1,0 +1,52 @@
+    1  ls
+    2  exit
+    3  ls
+    4  exit
+    5  ls
+    6  mkdir Chapter7
+    7  cd Chapter7
+    8  cd
+    9  ls
+   10  cd Chapter7
+   11  vi project7-1.sh
+   12  chmod a+x project7-1.sh
+   13  ./project7-1.sh
+   14  vi project7-1.sh
+   15  ls
+   16  cd
+   17  rm -rf Chapter7
+   18  nano .bashrc
+   19  source .bashrc
+   20  mkdir project7_3
+   21  cd project7_3
+   22  set | less
+   23  env | less
+   24  env | grep PS1
+   25  set | grep PS1
+   26  PS1="Hello There:"
+   27  echo $PS1
+   28  exit
+   29  vi .bash_profile   
+   30  exit
+   31  cd Chapter7/project7_3
+   32  cd Chapter7
+   33  ls
+   34  cd project7_2
+   35  MYVAR="My sample variable"
+   36  echo $MYVAR
+   37  set | grep MYVAR
+   38  env | grep MYVAR
+   39  export MYVAR
+   40  env | grep MYVAR
+   41  exit
+   42  echo $MYVAR
+   43  vi .bash_profile
+   44  exit
+   45  echo $MYVAR
+   46  alias
+   47  alias asample="cd /etc ; cat hosts ; cd ~ ; ls -F"
+   48  asample
+   49  ls project7_3
+   50  mv project7_3 Chapter7/
+   51  cd Chapter7/project7_2
+   52  history > history

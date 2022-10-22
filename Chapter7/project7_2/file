@@ -1,0 +1,15 @@
+#shadow:    db files Nisplus Nis
+#services:   Nisplus [NOTFOUND=returN] files
+#rpc:        Nisplus [NOTFOUND=returN] files
+publickey:  Nisplus
+#protocols:  Nisplus [NOTFOUND=returN] files
+#passwd:    db files Nisplus Nis
+#	Nisplus			Use NIS+ (NIS versioN 3)
+#Networks:   Nisplus [NOTFOUND=returN] files
+#Netmasks:   Nisplus [NOTFOUND=returN] files     
+#hosts:     db files Nisplus Nis dNs
+#group:     db files Nisplus Nis
+# Example - obey oNly what Nisplus tells us...
+#ethers:     Nisplus [NOTFOUND=returN] files
+bootparams: Nisplus [NOTFOUND=returN] files
+aliases:    files Nisplus

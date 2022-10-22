@@ -1,0 +1,35 @@
+#! /bin/bash
+while true
+do
+clear
+echo -e "What would you like to do? 
+Add an entry (a)
+Search an entry (s)
+Quit (q)
+Enter your choice (a/s/q) -->\c"
+read ANSWER
+case $ANSWER in
+a | A ) echo -e "This program adds entries to a family database file. \n"
+echo -e "Please enter the name of the family member -->\c"
+read NAME
+echo -e "Please enter the family member's relation to you (i.e mother)
+-->\c"
+read RELATION
+echo -e "Please enter the family member's telephone number -->\c"
+read PHONE
+data="$NAME\t$RELATION\t$PHONE"
+echo -e $data >> database
+;;
+s | S ) echo -e "What word would you like to look for -->\c?"
+read WORD
+grep $WORD database
+sleep 4
+;;
+q | Q ) exit
+;;
+* ) echo "You must enter either the letter a or s"
+sleep 4
+;;
+esac
+done
+

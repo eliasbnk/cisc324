@@ -1,0 +1,55 @@
+    1  vi myscript2
+    2  chmod u+x myscript2
+    3  ./myscript2
+    4  cat database
+    5  vi myscript2
+    6  echo > database
+    7  cat database
+    8  ./myscript2
+    9  cat database
+   10  vi myscript2
+   11  echo > database
+   12  ./myscript2
+   13  cat database
+   14  vi myscript2
+   15  echo > database
+   16  ./myscript2
+   17  cat database
+   18  vi myscript2
+   19  echo > database
+   20  ./myscript2
+   21  cat database
+   22  vi myscript2
+   23  echo > database
+   24  ./myscript2
+   25  cat database
+   26  vi myscript2
+   27  echo > database
+   28  ./myscript2
+   29  cat database
+   30  vi myscript2
+   31  echo > datbase
+   32  ./myscript2
+   33  cat database
+   34  ./myscript2
+   35  cat database
+   36  vi myscript2
+   37  ./myscript2
+   38  vi myscript2
+   39  ./myscript2 
+   40  vi myscript2
+   41  ./myscript2
+   42  vi myscript2
+   43  ./myscript2
+   44  vi myscript2
+   45  ./myscript2
+   46  vi myscript2
+   47  ./myscript2
+   48  vi myscript2
+   49  ./myscript2
+   50  vi myscript3
+   51  chmod u+x myscript3
+   52  ./myscript3
+   53  vi myscript4
+   54  chmod u+x myscript4
+   55  ./myscript4
