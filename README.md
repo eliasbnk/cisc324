@@ -1,1 +1,1 @@
-# College Assignmets for CISC 324
+# Assignmets for CISC 324
