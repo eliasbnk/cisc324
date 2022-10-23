@@ -1,1 +1,1 @@
-# Assignmets for CISC 324
+# CISC 324 Homework
